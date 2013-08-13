@@ -12,7 +12,7 @@ group :production do
 end
 
 group :development do
-  gem 'rspec-rails'
+  gem 'rspec-rails' 
 end
 
 group :test do

@@ -1,0 +1,2 @@
+class AeraezreazController < ApplicationController
+end
