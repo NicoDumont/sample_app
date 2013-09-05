@@ -14,13 +14,9 @@ group :production do
   gem 'pg'
 end
 
-group :development do
-  gem 'rspec-rails' 
-end
-
-group :test do
-  gem 'rspec', '2.5.0'
-  gem 'webrat', '0.7.1'
+group :development, :test do
+  gem 'rspec-rails',      ">= 2.0.0.beta"
+  gem 'webrat'
 end
 
 # Use SCSS for stylesheets
