@@ -3,6 +3,10 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.rc2'
 
+gem 'protected_attributes'
+
+gem 'gravatar_image_tag', '1.0.0.pre2'
+
 #gem 'therubyracer'
 gem 'execjs'
 
