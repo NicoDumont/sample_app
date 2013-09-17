@@ -16,7 +16,7 @@ gem 'execjs'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'sqlite3'
-  #gem 'faker', '0.3.1'
+  gem 'faker', '0.3.1'
 end
 group :production do
   gem 'pg'
